@@ -189,11 +189,11 @@ export default function Home() {
 
             <div className="card" style={{ padding: 12 }}>
               <div style={{ display: "flex", justifyContent: "space-between", gap: 10 }}>
-                <b>🔥 Training combo</b>
-                <span className="badge">Beat Up</span>
+                <b>🔥 Đấu live</b>
+                <span className="badge">FAM 4K - 8K</span>
               </div>
               <p className="smallMuted" style={{ marginTop: 8 }}>
-                Tập timing, tập nhịp, chase combo cao. Ai gãy combo thì… cười tiếp 😅
+                Giao lưu, Thi đấu, Học hỏi cùng các FAM lớn khác 😅
               </p>
             </div>
 
