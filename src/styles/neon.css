@@ -439,3 +439,46 @@ body{
   background: rgba(0,245,255,0.20);
   box-shadow: 0 0 16px rgba(0,245,255,0.22);
 }
+
+/* ===== EVENT COVER: KHÔNG BỊ CẮT ẢNH, LUÔN VỪA KHUNG ===== */
+
+/* Khung ảnh cover của EventCard (bọc img vào 1 div) */
+.eventCover {
+  width: 100%;
+  height: 180px;              /* đúng với bạn đang set bên card */
+  background: rgba(0,0,0,0.35);
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Ảnh cover trong card: không cắt, không phóng mất ảnh */
+.eventCover img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;        /* quan trọng: KHÔNG cắt ảnh */
+  object-position: center;
+  display: block;
+  image-rendering: auto;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.35));
+}
+
+/* Nếu bạn đang dùng class .media cho ảnh trong modal */
+.media {
+  width: 100%;
+  max-height: 520px;          /* tuỳ bạn, để khỏi quá cao */
+  object-fit: contain;        /* KHÔNG cắt ảnh */
+  background: rgba(0,0,0,0.35);
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.12);
+  display: block;
+}
+
+/* Mobile: cover thấp hơn cho gọn */
+@media (max-width: 520px) {
+  .eventCover {
+    height: 160px;
+  }
+}
