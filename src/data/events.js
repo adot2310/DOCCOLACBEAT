@@ -1,0 +1,33 @@
+export const events = [
+  {
+    id: "fam-battle-001",
+    type: "FAM_BATTLE",
+    title: "Đấu FAM: DocCoLac vs TeamXYZ",
+    date: "2026-01-10",
+    time: "20:30",
+    location: "Channel 3 - Room 12",
+    rules: {
+      mode: "Beat Up",
+      song: "Any (Captain pick)",
+      bestOf: 3,
+      note: "Cấm delay, cấm bug.",
+    },
+    status: "upcoming",
+    cover: "https://picsum.photos/seed/fambattle/900/450",
+    recap: null,
+    albumId: null,
+  },
+  {
+    id: "training-002",
+    type: "TRAINING",
+    title: "Training combo: 8k Beat Up",
+    date: "2025-12-25",
+    time: "21:00",
+    location: "Channel 1 - Room 5",
+    rules: { mode: "Beat Up", level: "8K", note: "Tập combo + timing." },
+    status: "done",
+    cover: "https://picsum.photos/seed/training/900/450",
+    recap: "Tối nay lên tay timing, có vài combo 2xx xin lỗi lag nhẹ 😭",
+    albumId: "alb-training-002",
+  },
+];
