@@ -27,18 +27,6 @@ export default function EventCard({ event }) {
           overflow: "hidden",
         }}
       >
-        <img
-          src={cover}
-          alt={event.title}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "contain", // QUAN TRỌNG: không cắt ảnh
-            objectPosition: "center",
-            filter: "drop-shadow(0 12px 22px rgba(0,0,0,0.45))",
-          }}
-        />
-
         {/* overlay gradient */}
         <div
           style={{
@@ -62,19 +50,33 @@ export default function EventCard({ event }) {
             alignItems: "flex-start",
           }}
         >
-          <h3
-            style={{
-              margin: 0,
-              fontSize: 18,
-              fontWeight: 700,
-              background:
-                "linear-gradient(90deg, #00f5ff, #7cffc4, #c77dff)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              textShadow: "0 0 12px rgba(0,245,255,0.35)",
-            }}
-          >
-            {event.title}
+          <h3 style={{ margin: 0, fontSize: 18, fontWeight: 700 }}>
+            {/* Chia tiêu đề thành các phần với màu sắc khác nhau */}
+            <span
+              style={{
+                background:
+                  "linear-gradient(90deg, #00f5ff, #7cffc4, #c77dff)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                textShadow: "0 0 12px rgba(0,245,255,0.35)",
+              }}
+            >
+              || ĐỘC CÔ LẠC BEAT || NỘI BỘ SO TÀI
+            </span>
+            <span
+              style={{
+                color: "red",
+              }}
+            >
+              : TEAM 2
+            </span>
+            <span
+              style={{
+                color: "blue",
+              }}
+            >
+              ⚔️ TEAM 8
+            </span>
           </h3>
 
           <span

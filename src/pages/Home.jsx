@@ -159,7 +159,7 @@ export default function Home() {
           </p>
 
           <div style={{ marginTop: 12, display: "grid", gap: 10 }}>
-            <div className="badge">🕒 Giờ hoạt động chính: 17h - 23h</div>
+            <div className="badge">🕒 Giờ hoạt động chính: 9h - 23h</div>
             <div className="badge">🎮 Kênh đấu FAM: Đẳng cấp 105, Đẳng cấp 106</div>
             <div className="badge">✅ Tinh thần: vui nhưng không toxic</div>
           </div>

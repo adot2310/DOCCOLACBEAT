@@ -37,18 +37,18 @@ export const comboHighlights = [
 export const videoHighlights = [
   {
     id: "vid-001",
-    title: "Highlight Beat Up: timing mượt",
-    player: "Tus",
+    title: "Highlight Đấu FAM: Combo x48",
+    player: "spoo",
     date: "2025-12-25",
-    youtubeId: "C6MEQrVFBs8",
-    tags: ["BU", "highlight"],
+    youtubeId: "ThYfOR2o4Jw",
+    tags: ["highlight"],
   },
   {
     id: "vid-002",
-    title: "Đấu FAM: đoạn clutch cuối",
+    title: "Nhảy đôi: Combo x50",
     player: "sasapika",
     date: "2025-12-20",
-    youtubeId: "C6MEQrVFBs8",
-    tags: ["df", "highlight"],
+    youtubeId: "ThYfOR2o4Jw",
+    tags: ["highlight"],
   },
 ];

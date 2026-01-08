@@ -6,7 +6,7 @@ import banner2 from "../images/banner2.jpg";
 
 import logo from "../assets/fam-logo.png";
 
-import featured1 from "../images/highlight1.jpg";
+import featured1 from "../images/highlight2.jpg";
 
 export const homeFeatured = {
   slogan: "Độc Cô Lạc Beat",
